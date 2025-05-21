@@ -30,10 +30,10 @@ export default function App() {
     <div data-theme={theme}>
       <Navbar />
       <Routes>
-        <Route path="/" element={authUser ? <Home /> : <Navigate to="/login" />} />
-        <Route path="/signup" element={ authUser ? <Signup /> :  <Navigate to="/" />} />
-        <Route path="/login" element={<Login /> } />
-        <Route path="/settings" element={<Settings />} />
+        <Route path="/" element={ <Home /> } />
+        <Route path="/signup" element={ <Signup /> } />
+        <Route path="/login" element={!authUser ? <Login /> : <Navigate to="/" />} />
+        <Route path="/settings" element={authUser ? <Settings /> : <Navigate to="/login" />} />
         <Route path="/profile" element={authUser ? <Profile /> : <Navigate to="/login" />} />
       </Routes>
 
