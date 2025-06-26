@@ -42,3 +42,46 @@ ChatMate is a real-time chat application built with the **MERN Stack (MongoDB, E
 ```bash
 git clone https://github.com/TimelyCo/Chat-App.git
 cd chatmate
+```
+### 2. Set up the back-end
+```bash
+cd backend
+npm install
+```
+
+Create a .env file inside the backend directory with the following contents:
+
+```bash
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+```
+
+Start the server:
+```bash
+npm run dev
+```
+
+### 3. Set up the front-end
+```bash
+cd frontend
+npm install
+```
+
+Start the React Development server
+```bash
+npm run dev
+```
+
+---
+
+### Security Features
+
+Encrypted passwords using bcrypt
+
+Protected routes via middleware
+
+JWT authentication for login and token-based sessions
+
+CORS configuration
+
