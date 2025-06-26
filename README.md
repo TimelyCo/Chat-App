@@ -85,3 +85,9 @@ JWT authentication for login and token-based sessions
 
 CORS configuration
 
+![image](https://github.com/user-attachments/assets/834cb29f-e02a-4c17-9c5d-2eb2b92f210b)
+![image](https://github.com/user-attachments/assets/ff135495-47c3-4c62-ba39-717bb59028f7)
+![image](https://github.com/user-attachments/assets/9caf71fa-0607-4400-ae57-fe4b42556063)
+
+
+
